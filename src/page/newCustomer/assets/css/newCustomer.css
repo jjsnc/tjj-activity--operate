@@ -1,0 +1,243 @@
+body {
+    background-color: #ec3a38;
+}
+
+img {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.list {
+    background: #ec3a38;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+    position: relative;
+    margin-bottom: 0rem;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    background: #ec3a38;
+    color: #ffffff;
+    font-size: 0.768rem;
+    border-bottom: 1px solid   #f9e27e;
+}
+
+.list2 {
+    padding-bottom: 0rem;
+    padding-top: 0.332rem;
+    min-height: 6rem;
+}
+.navHeight{
+    background-color: #ec3a38;
+    height: 1.3rem;
+}
+nav span {
+    float: left;
+    width: 3.9rem;
+    text-align: center;
+    line-height: 1.3rem;
+    font-family: FZLTZHK--GBK1-0;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 0.55rem;
+    height: 1.3rem;
+    background: #b90d0b;
+    margin-left: 0.256rem;
+    color: #fe8f1c;
+    border-radius: 5px 5px 0 0;
+}
+
+nav span:last-child {
+    margin-right: 0.256rem;
+}
+
+nav .active {
+    background: #f9e27e;
+    color: #ec3a38;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+  }
+  p[class="xian fixed"] {
+      top: 1.3rem;
+  }
+.gos {
+    width: 4.992rem;
+    height: 8rem;
+    margin-left: 0.256rem;
+    margin-bottom: 0.256rem;
+    background-color: #fff;
+}
+
+.im {
+    width: 4.992rem;
+    height: 5.077333333333334rem;
+}
+
+.name {
+    font-family: FZLTHJW--GB1-0;
+    font-size: 0.5973333333333334rem;
+    font-weight: normal;
+    font-stretch: normal;
+    margin-top: 0.17rem;
+    letter-spacing: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #000000;
+    padding: 0 0.1rem;
+}
+
+.name1 {
+    font-family: FZLTHJW--GB1-0;
+    font-size: 0.5973333333333334rem;
+    font-weight: normal;
+    font-stretch: normal;
+    height: 1.58rem;
+    line-height: 0.8rem;
+    letter-spacing: 0px;
+    margin-top: 0.17rem;
+    color: #000000;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    padding: 0 0.1rem;
+}
+
+.zjs {
+    font-size: 0.512rem;
+    font-family: FZLTHJW--GB1-0;
+    color: #ff3a52;
+    padding: 0.1rem 0.341rem;
+    padding-bottom: 0.17rem;
+    height: 0.8rem;
+}
+
+del {
+    font-size: 0.384rem;
+    color: #999999;
+    line-height: 1.3rem;
+    height: 1.3rem;
+    float: right;
+}
+
+.info {
+    padding: 0 0.341rem;
+    color: #ec3a38;
+    font-size: 0.512rem;
+    letter-spacing: -1px;
+    justify-content: space-between;
+}
+
+.info span i {
+    font-size: 0.81066rem;
+    font-weight: bold;
+}
+
+.icon {
+    font-size: 0.384rem;
+    color: #ec3a38;
+    line-height: 1.3rem;
+    height: 1.1rem;
+}
+
+.flas {
+    width: 1.15rem;
+    height: 1.8rem;
+    position: absolute;
+    top: 0;
+    right: 0.27rem;
+}
+
+.ims {
+    position: relative;
+}
+
+.xian {
+    width: 100%;
+    height: 1px;
+    background-color: #f9e27e;
+}
+
+#return-top {
+    bottom: 15%;
+    opacity: 0.7;
+}
+
+/* 加载 */
+#load {
+    width: 3.2rem;
+    height: 3.2rem;
+    position: fixed;
+    left: 50%;
+    margin-left: -1.6rem;
+    top: 50%;
+    margin-top: -1.6rem;
+}
+
+#load .load {
+    display: block;
+    overflow: hidden;
+    width: 3.2rem;
+    height: 3.2rem;
+    margin: 0;
+}
+
+.none-img {
+    display: none;
+    height: 0;
+    overflow: hidden;
+}
+#btn-box {
+    background: #ec3a38;
+    width: 100%;
+    overflow: hidden;
+    padding: 0.32rem 0.32rem 0;
+    box-sizing: border-box;
+  }
+  
+  .btn-box {
+    display: block;
+    height: 1.7rem;
+    width: 7.57rem;
+    width: calc(calc(100% - 0.21rem) / 2);
+    float: left;
+  }
+  
+  .btn-box:last-child {
+    float: right;
+  }
+  
+  .btn-box-woman-no {
+    background: url(../img/woman_no.png) center center no-repeat;
+    background-size: 100%;
+  }
+  
+  .btn-box-man-no {
+    background: url(../img/man_no.png) center center no-repeat;
+    background-size: 100%;
+  }
+  
+  .btn-box-woman {
+    background: url(../img/woman_has.png) center center no-repeat !important;
+    background-size: 100% !important;
+  }
+  
+  .btn-box-man {
+    background: url(../img/man_has.png) center center no-repeat !important;
+    background-size: 100% !important;
+  }
+  
